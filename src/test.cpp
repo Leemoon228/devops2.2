@@ -14,7 +14,7 @@ bool var9Test()
   std::vector<double> returned_v2 = DiagSum(v2);
   std::vector<double> returned_v3 = DiagSum(v3);
   
-  bool isSuccess1 = true;
+  bool isSuccess1 = false;
   bool isSuccess2 = true;
   bool isSuccess3 = true;
   
