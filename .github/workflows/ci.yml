@@ -1,12 +1,13 @@
 name: Build, Test, and Package
 
-on: workflow_dispatch
-  #push:
-    #branches:
-      #- '**'  
-  #pull_request:
-    #branches:
-      #- '**'  
+on:
+  push:
+    branches:
+      - main  
+  pull_request:
+    branches:
+      - main  
+  workflow-dispatch:
 
 jobs:
   run-make:
